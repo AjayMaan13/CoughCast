@@ -1,0 +1,9 @@
+data/
+.venv/
+*.wav
+*.webm
+*.ogg
+*.npz
+*.pt
+__pycache__/
+.DS_Store
