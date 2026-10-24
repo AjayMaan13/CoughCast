@@ -1,0 +1,57 @@
+{
+  "n_cycles": 6898,
+  "n_recordings": 920,
+  "n_patients": 126,
+  "cycles_per_class_per_split": {
+    "test": {
+      "both": 86,
+      "crackle": 617,
+      "normal": 1560,
+      "wheeze": 373
+    },
+    "train": {
+      "both": 420,
+      "crackle": 1247,
+      "normal": 2082,
+      "wheeze": 513
+    }
+  },
+  "cycles_per_class_per_official_split": {
+    "test": {
+      "both": 143,
+      "crackle": 649,
+      "normal": 1579,
+      "wheeze": 385
+    },
+    "train": {
+      "both": 363,
+      "crackle": 1215,
+      "normal": 2063,
+      "wheeze": 501
+    }
+  },
+  "patients_in_both_official_train_and_test": [
+    156,
+    218
+  ],
+  "cycle_length_s_percentiles": {
+    "0.05": 1.0470000000000006,
+    "0.25": 1.9319999999999995,
+    "0.5": 2.536999999999999,
+    "0.75": 3.3689999999999998,
+    "0.9": 4.106999999999999,
+    "0.95": 4.591,
+    "0.99": 6.4110000000000005
+  },
+  "sampling_rates_hz_recordings_per_rate": {
+    "44100": 824,
+    "4000": 90,
+    "10000": 6
+  },
+  "recordings_per_device": {
+    "AKGC417L": 646,
+    "Meditron": 127,
+    "LittC2SE": 87,
+    "Litt3200": 60
+  }
+}
